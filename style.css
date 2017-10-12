@@ -6,7 +6,7 @@ background-color: #D3D3D3;
 }
 
 .logo{
-
+width:50%
 }
 
 body {
@@ -22,7 +22,7 @@ body {
   margin:0;
   padding:0;
 width:15%;
-border-bottom: 2px solid #1a0013;
+border-bottom: 2px solid #373737;
 text-decoration: none;
 background-color: grey;
 
@@ -40,9 +40,9 @@ background-color: grey;
 }
 
 #nav a:visited {
-  color:#DCD0C0;
+  color:#E8D6CB;
 }
 
 #nav a:hover, #nav a:active{
-  background-color:#F4F4F4;
+  background-color:#c9c9c9;
 }
