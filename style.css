@@ -1,7 +1,7 @@
 h1{
 font-family:"Archivo Narrow", Arial, sans-serif;
 text-align: center;
-background-color: #D3D3D3;
+background-color: grey;
 }
 
 body {
@@ -12,7 +12,7 @@ body {
   list-style-type:none;
   margin:0;
   padding:0;
-width:15%;
+width:25%;
 border-bottom: 2px solid #1a0013;
 text-decoration: none;
 background-color: grey;
@@ -27,7 +27,7 @@ background-color: grey;
   text-align:left;
   text-decoration:none;
   padding:10px;
-  font-family:Helvetica, Arial, sans-serif;
+  font-family:"Open Sans", Arial, sans-serif;
 }
 
 #nav a:visited {
