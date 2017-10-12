@@ -9,3 +9,26 @@ text-align: center;
   padding:0;
   width:100%;
 }
+
+#nav a:link{
+  display:block;
+  color:#231B23;
+  background-color:#D0ADA7;
+  font-weight:bold;
+  text-align:left;
+  text-decoration:none;
+  padding:4px;
+  font-family:Helvetica, Arial, sans-serif;
+}
+
+#nav a:visited {
+  color:#E8D6CB;
+}
+
+#nav a:hover, #nav a:active{
+  background-color:#AD6A6C;
+}
+
+#nav{
+  padding:0;
+}
