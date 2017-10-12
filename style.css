@@ -4,6 +4,10 @@ text-align: center;
 background-color: grey;
 }
 
+body {
+  background-color:#F4F4F4;
+}
+
 #nav li{
   list-style-type:none;
   margin:0;
