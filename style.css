@@ -10,6 +10,7 @@ text-align: center;
   width:100%;
 }
 
+<<<<<<< Updated upstream
 #nav a:link{
   display:block;
   color:#231B23;
@@ -31,4 +32,9 @@ text-align: center;
 
 #nav{
   padding:0;
+=======
+#container{
+  width: 50%;
+  margin: 0 auto;
+>>>>>>> Stashed changes
 }
