@@ -8,7 +8,13 @@ background-color: grey;
   list-style-type:none;
   margin:0;
   padding:0;
+<<<<<<< Updated upstream
   width:25%;
+=======
+  width:50%;
+border-bottom: 2px solid #800101;
+text-decoration: none;
+>>>>>>> Stashed changes
 }
 
 <<<<<<< Updated upstream
@@ -33,9 +39,3 @@ background-color: grey;
 
 #nav{
   padding:0;
-=======
-#container{
-  width: 50%;
-  margin: 0 auto;
->>>>>>> Stashed changes
-}
