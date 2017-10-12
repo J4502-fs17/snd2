@@ -19,7 +19,6 @@ background-color: grey;
 
 }
 
-<<<<<<< Updated upstream
 #nav a:link{
   display:block;
   color:#000000;
@@ -38,6 +37,3 @@ background-color: grey;
 #nav a:hover, #nav a:active{
   background-color:#c9c9c9;
 }
-
-#nav{
-  padding:10px;
