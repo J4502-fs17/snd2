@@ -24,9 +24,10 @@ body {
   background-color: grey;
 }
 
-.boxed {
-  border:1px;
-  border-color:#000000;
+#container{
+  width:95%;
+  background-color:green;
+  margin:0 auto;
 }
 
 #nav a:link{
