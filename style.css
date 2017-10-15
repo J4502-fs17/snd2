@@ -10,7 +10,13 @@ background-color: #D3D3D3;
 .enter{
  width:5%
 }
-.cost{
+.dollar{
+width:5%
+}
+.deadline{
+width:5%
+}
+.awards{
 width:5%
 }
 body {
