@@ -1,18 +1,27 @@
 h1{
 font-family:"Archivo Narrow", Arial, sans-serif;
 text-align: center;
-background-color: grey;
+fony-size:5rem;
+background-color: #D3D3D3;
 }
-
+.logo{
+  width:10%
+}
 body {
   background-color: #F4F4F4;
 }
 
+#nav {
+  padding: 5px, 5px, 5px, 5px;
+}
 #nav li{
-  list-style-type:none;
+  list-style-type: none;
   margin:0;
   padding:0;
-  width:25%;
+  width:15%auto;
+  border-bottom: 2px solid #373737;
+  text-decoration: none;
+  background-color: grey;
 }
 
 .boxed {
@@ -21,22 +30,17 @@ body {
 }
 
 #nav a:link{
-  display:block;
-  color:#000000;
   background-color:#ffffff;
   font-weight:bold;
   text-align:left;
   text-decoration:none;
-  padding:4px;
-  font-family:Helvetica, Arial, sans-serif;
+  padding:10px;
+  font-family:"Archivo Narrow", Arial, sans-serif;
 }
 
 #nav a:visited {
-  color:#E8D6CB;
-}
-
 #nav a:hover, #nav a:active{
   background-color:#c9c9c9;
 }
-}
+
 >>>>>>> Stashed changes
