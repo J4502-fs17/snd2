@@ -5,6 +5,14 @@ fony-size:5rem;
 background-color: #D3D3D3;
 }
 
+.sliderarrow{
+  width:20%;
+}
+
+.homeslide{
+  width:25%;
+}
+
 .logo{
   width:10%
 }
