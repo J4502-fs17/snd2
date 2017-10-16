@@ -16,8 +16,9 @@ background-color: #D3D3D3;
 
 .homeslide{
   width:40%;
-  align-items: center;
-  margin-top: 5px;
+  margin-top: 15px;
+  margin-right: 5px;
+  margin-left: 5px;
 }
 
 .logo{
