@@ -9,19 +9,21 @@ margin:0;
 .sliderarrow1{
   width:20%;
   transform: rotate(180deg);
-  margin-left: 45px;
+  margin-left: 25%;
   padding-right:30px;
 }
 
 .sliderarrow2{
   width:20%;
-  margin-right: 45px;
+  margin-right: 25%;
   padding-left: 30px;
 }
 
 .homeslide{
   width:40%;
   margin-top: 15px;
+  margin-left:50%;
+  margin-right:50%;
 }
 
 .button{
