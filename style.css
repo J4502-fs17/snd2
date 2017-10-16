@@ -27,7 +27,7 @@ background-color: #D3D3D3;
 
 .button{
   position: relative;
-  width:30%;
+  width:50%;
   margin-right:50%;
   margin-left:50%;
 }
@@ -49,10 +49,10 @@ background-color: #D3D3D3;
 
 h6{
   Position:absolute;
-  left: 55%;
-  top: 18%;
+  left: 65%;
+  top: 30%;
   font-family:"Archivo Narrow", Arial, sans-serif;
-  font-size:2rem;
+  font-size:2.6rem;
 }
 
 .logo{
