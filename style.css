@@ -26,9 +26,33 @@ background-color: #D3D3D3;
 }
 
 .button{
-  width:35%;
+  position: relative;
+  width:30%;
   margin-right:50%;
   margin-left:50%;
+}
+
+.combination1{
+    position:relative;
+    width: 100%;
+}
+
+.combination2{
+    position:relative;
+    width: 100%;
+  }
+
+.combination3{
+    position:relative;
+    width: 100%;
+  }
+
+h6{
+  Position:absolute;
+  left: 55%;
+  top: 18%;
+  font-family:"Archivo Narrow", Arial, sans-serif;
+  font-size:2rem;
 }
 
 .logo{
