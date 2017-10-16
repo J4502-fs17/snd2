@@ -5,7 +5,7 @@ fony-size:5rem;
 background-color: #D3D3D3;
 }
 
-div img{
+.slider{
   display: inline-block;
 }
 
