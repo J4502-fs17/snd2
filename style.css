@@ -8,21 +8,19 @@ background-color: #D3D3D3;
 .sliderarrow1{
   width:20%;
   transform: rotate(180deg);
-  margin-left: 20px;
-  padding-right:10px;
+  margin-left: 45px;
+  padding-right:30px;
 }
 
 .sliderarrow2{
   width:20%;
-  margin-right: 20px;
-  padding-left: 10px;
+  margin-right: 45px;
+  padding-left: 30px;
 }
 
 .homeslide{
   width:40%;
   margin-top: 15px;
-  margin-right: 5px;
-  margin-left: 5px;
 }
 
 .logo{
