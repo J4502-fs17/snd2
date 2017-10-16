@@ -7,7 +7,7 @@ background-color: #D3D3D3;
 
 .sliderarrow1{
   width:20%;
-  transform:rotateX(180deg);
+  transform: rotate(180deg);
 }
 
 .sliderarrow2{
