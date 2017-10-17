@@ -50,6 +50,17 @@ width: 50%;
 text-align: center;
 }
 
+#reminder{
+list-style-type: none;
+margin: auto;
+text-align: center;
+}
+
+#guidelinereviews{
+list-style-type: none;
+margin: auto;
+text-align: center;
+}
 .logo{
   width:10%
 }
