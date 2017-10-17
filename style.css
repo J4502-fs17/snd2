@@ -97,7 +97,7 @@ body {
   background-color: #F4F4F4;
 }
 
-img {
+.examples img {
   padding: 10px;
 }
 
@@ -115,8 +115,9 @@ img {
   background-color: #D3D3D3;
 }
 
-#nav a:link {
+#nav a:link, a:visited {
   font-weight:bold;
+  color:black;
   text-align:left;
   text-decoration:none;
   font-family:"Archivo Narrow", Arial, sans-serif;
