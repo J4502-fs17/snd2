@@ -109,10 +109,5 @@ body {
 
 #nav a:hover, #nav a:active{
   background-color:#F4F4F4;
-}
-
-#container{
-  width:95%;
-  background-color:green;
-  margin:0 auto;
+  padding: 10px;
 }
