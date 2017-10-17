@@ -82,13 +82,12 @@ width:2%
 width:5%
 }
 
-<<<<<<< HEAD
-=======
 #container{
     width: 50%;
     margin: 0 auto;
->>>>>>> origin/master
-body {
+}
+
+#body {
   background-color: #F4F4F4;
 }
 
@@ -99,6 +98,7 @@ img {
 #nav {
   width:15%;
 }
+
 #nav li{
   list-style-type: none;
   margin:0;
@@ -109,12 +109,8 @@ img {
   background-color: #D3D3D3;
 }
 
-<<<<<<< HEAD
-#nav a:link a:visited{
-=======
-#nav a:link {
 
->>>>>>> origin/master
+#nav a:link a:visited{
   font-weight:bold;
   text-align:left;
   color: #000000;
