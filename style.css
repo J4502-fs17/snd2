@@ -44,6 +44,7 @@ p{
 }
 
 #containerenter{
+margin:auto;
 background-color: white;
 width: 50%;
 text-align: center;
