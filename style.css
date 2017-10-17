@@ -85,9 +85,15 @@ width:5%
 #container{
     width: 50%;
     margin: 0 auto;
+<<<<<<< HEAD
   }
   
 body {
+=======
+}
+
+#body {
+>>>>>>> origin/master
   background-color: #F4F4F4;
 }
 
@@ -98,6 +104,7 @@ img {
 #nav {
   width:15%;
 }
+
 #nav li{
   list-style-type: none;
   margin:0;
@@ -108,8 +115,13 @@ img {
   background-color: #D3D3D3;
 }
 
+<<<<<<< HEAD
 #nav a:link {
 
+=======
+
+#nav a:link a:visited{
+>>>>>>> origin/master
   font-weight:bold;
   text-align:left;
   text-decoration:none;
