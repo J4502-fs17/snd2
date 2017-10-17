@@ -56,16 +56,26 @@ text-align: center;
 }
 
 #reminder{
-list-style-type: none;
-margin: auto;
-text-align: center;
+  list-style-type: none;
+  margin: 0;
+  text-align: center;
+  background-color: #DCD0C0;
+  margin:auto;
+}
+
+#remindertext{
+  text-align: center;
+  margin:auto;
 }
 
 #guidelinereviews{
 list-style-type: none;
-margin: auto;
+margin: 0;
 text-align: center;
+background-color: #DCD0C0;
+margin:auto;
 }
+
 .logo{
   width:10%
 }
