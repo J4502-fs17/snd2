@@ -69,13 +69,21 @@ width:2%
 width:5%
 }
 
-#center{
+#about{
     width: 50%;
     margin: 0;
     text-align: center;
     background-color: #DCD0C0;
-    width: 30%;
+    margin:auto;
   }
+
+#abouttext{
+  margin:auto;
+  text-align: center;
+  width: 50%
+
+}
+
 
 body {
   background-color: #F4F4F4;
