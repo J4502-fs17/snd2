@@ -81,6 +81,7 @@ width:2%
 .judge{
 width:5%
 }
+
 body {
   background-color: #F4F4F4;
 }
@@ -102,15 +103,15 @@ img {
   background-color: #D3D3D3;
 }
 
-#nav a:link{
+#nav a:link a:visited{
   font-weight:bold;
   text-align:left;
+  color: #000000;
   text-decoration:none;
   font-family:"Archivo Narrow", Arial, sans-serif;
-  text-emphasis-color: black;
 }
 
-#nav a:hover, #nav a:active{
+#nav a:hover a:active{
   background-color:#F4F4F4;
 }
 
