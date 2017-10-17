@@ -112,7 +112,9 @@ width:5%
 #container{
     width: 50%;
     margin: 0 auto;
-body {
+}
+
+#body {
   background-color: #F4F4F4;
 }
 
@@ -123,6 +125,7 @@ img {
 #nav {
   width:15%;
 }
+
 #nav li{
   list-style-type: none;
   margin:0;
