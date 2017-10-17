@@ -51,7 +51,7 @@ p{
 #containerenter{
 margin:auto;
 background-color: white;
-width: 50%;
+width: 95%;
 text-align: center;
 }
 
@@ -89,10 +89,14 @@ width:2%
 width:3%
 }
 .awards{
-width:2%
+width:3%
 }
 .judge{
 width:5%
+}
+.reminderlogo{
+width:4%;
+margin-left: 5px;
 }
 
 #about{
