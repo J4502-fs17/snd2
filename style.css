@@ -107,7 +107,7 @@ img {
   text-align:left;
   text-decoration:none;
   font-family:"Archivo Narrow", Arial, sans-serif;
-  text-decoration-color: black;
+  text-emphasis-color: black;
 }
 
 #nav a:hover, #nav a:active{
