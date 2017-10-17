@@ -1,12 +1,7 @@
 h1{
 font-family:"Archivo Narrow", Arial, sans-serif;
 text-align: center;
-<<<<<<< Updated upstream
 font-size:5rem;
-=======
-<<<<<<< HEAD
-fony-size:5rem;
->>>>>>> Stashed changes
 background-color: #D3D3D3;
 }
 
@@ -70,14 +65,6 @@ p{
 
 .logo{
   width:10%
-=======
-font-size:5rem;
-background-color: #D3D3D3;
-}
-
-.logo{
-width:10%
->>>>>>> parent of 9ae7c92... committed to adding a box
 }
 .enter{
  width:5%
@@ -103,48 +90,16 @@ img {
 }
 
 #nav {
-<<<<<<< Updated upstream
   width:25%;
-=======
-<<<<<<< HEAD
-  padding: 5px, 5px, 5px, 5px;
->>>>>>> Stashed changes
 }
-=======
-    padding: 5px, 5px, 5px, 5px;
-}
-
->>>>>>> parent of 9ae7c92... committed to adding a box
 #nav li{
   list-style-type: none;
   margin:0;
-<<<<<<< Updated upstream
   padding:5px;
   width:auto;
   border-bottom: 2px solid #A9A9A9;
   text-decoration: none;
   background-color: #D3D3D3;
-=======
-  padding:0;
-<<<<<<< HEAD
-  width:15%auto;
-  border-bottom: 2px solid #373737;
-  text-decoration: none;
-  background-color: grey;
-}
-
-#container{
-  width:95%;
-  background-color:green;
-  margin:0 auto;
-=======
-width:15%;
-border-bottom: 2px solid #373737;
-text-decoration: none;
-background-color: grey;
-
->>>>>>> parent of 9ae7c92... committed to adding a box
->>>>>>> Stashed changes
 }
 
 #nav a:link{
@@ -157,16 +112,9 @@ background-color: grey;
 #nav a:hover, #nav a:active{
   background-color:#F4F4F4;
 }
-<<<<<<< HEAD
 
-<<<<<<< Updated upstream
 #container{
   width:95%;
   background-color:green;
   margin:0 auto;
 }
-=======
->>>>>>> Stashed changes
-=======
->>>>>>> parent of 9ae7c92... committed to adding a box
->>>>>>> Stashed changes
