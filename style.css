@@ -103,10 +103,18 @@ img {
 }
 
 #nav {
+<<<<<<< Updated upstream
   width:25%;
+=======
+<<<<<<< HEAD
   padding: 5px, 5px, 5px, 5px;
+>>>>>>> Stashed changes
+}
+=======
+    padding: 5px, 5px, 5px, 5px;
 }
 
+>>>>>>> parent of 9ae7c92... committed to adding a box
 #nav li{
   list-style-type: none;
   margin:0;
@@ -149,11 +157,16 @@ background-color: grey;
 #nav a:hover, #nav a:active{
   background-color:#F4F4F4;
 }
+<<<<<<< HEAD
 
-
-
+<<<<<<< Updated upstream
 #container{
   width:95%;
   background-color:green;
   margin:0 auto;
 }
+=======
+>>>>>>> Stashed changes
+=======
+>>>>>>> parent of 9ae7c92... committed to adding a box
+>>>>>>> Stashed changes
