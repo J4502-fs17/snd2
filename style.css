@@ -85,6 +85,10 @@ body {
   background-color: #F4F4F4;
 }
 
+img {
+  padding: 10px;
+}
+
 #nav {
   width:25%;
 }
