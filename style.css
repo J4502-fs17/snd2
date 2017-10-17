@@ -88,9 +88,12 @@ width:2%
 width:5%
 }
 
-#containerabout{
+#center{
     width: 50%;
-    margin: 0 auto;
+    margin: 0;
+    text-align: center;
+    background-color: #DCD0C0;
+    width: 30%;
   }
 
 body {
