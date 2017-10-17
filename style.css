@@ -41,6 +41,7 @@ h6{
 
 h2, h3{
   font-family:"Archivo Narrow", Arial, sans-serif;
+  font-size:4rem;
 }
 
 p{
@@ -85,7 +86,6 @@ width:5%
 }
 
 #about{
-    width: 50%;
     margin: 0;
     text-align: center;
     background-color: #DCD0C0;
@@ -95,7 +95,6 @@ width:5%
 #abouttext{
   margin:auto;
   text-align: center;
-  width: 50%
 
 }
 
