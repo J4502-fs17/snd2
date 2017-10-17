@@ -82,12 +82,11 @@ width:2%
 width:5%
 }
 
-<<<<<<< HEAD
-=======
 #container{
     width: 50%;
     margin: 0 auto;
->>>>>>> origin/master
+  }
+  
 body {
   background-color: #F4F4F4;
 }
@@ -109,20 +108,15 @@ img {
   background-color: #D3D3D3;
 }
 
-<<<<<<< HEAD
-#nav a:link a:visited{
-=======
 #nav a:link {
 
->>>>>>> origin/master
   font-weight:bold;
   text-align:left;
-  color: #000000;
   text-decoration:none;
   font-family:"Archivo Narrow", Arial, sans-serif;
 }
 
-#nav a:hover a:active{
+#nav a:hover, #nav a:active{
   background-color:#F4F4F4;
 }
 
