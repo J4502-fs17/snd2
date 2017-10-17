@@ -63,6 +63,10 @@ p{
   font-family:"Open Sans", Arial, sans-serif;
 }
 
+#containerenter{
+background-color: white;
+width: 50%
+}
 .logo{
   width:10%
 }
