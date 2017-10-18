@@ -1,3 +1,18 @@
+body{
+  margin:0 auto;
+  padding:0;
+}
+
+#container{
+  width:95%;
+  margin:0 auto;
+}
+
+#iconshome{
+  margin:0 auto;
+  width:80%;
+}
+
 h1{
 font-family:"Archivo Narrow", Arial, sans-serif;
 text-align: center;
@@ -6,14 +21,14 @@ background-color: #D3D3D3;
 }
 
 .sliderimage {
-  width:70%;
+  width:95%;
 }
 
 .button{
+  display:block;
   position: relative;
   width:50%;
-  margin-right:50%;
-  margin-left:50%;
+  margin: auto;
 }
 
 .combination1{
@@ -32,11 +47,13 @@ background-color: #D3D3D3;
   }
 
 h6{
-  Position:absolute;
-  top: 25%;
-  left: 67%;
+  position:absolute;
+  margin:0;
+  top: 50%;
+  left: 50%;
   font-family:"Archivo Narrow", Arial, sans-serif;
   font-size:1rem;
+  transform:translate(-50%, -50%);
 }
 
 h2, h3{
