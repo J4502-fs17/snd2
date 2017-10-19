@@ -57,6 +57,17 @@ h6{
   transform:translate(-50%, -50%);
 }
 
+h6 a:link{
+  color:black;
+  text-decoration:none;
+  font-family:"Archivo Narrow", Arial, sans-serif;
+}
+
+h6 a:visited{
+  color: black;
+  text-decoration:none;
+}
+
 h2{
 font-family:"Archivo Narrow", Arial, sans-serif;
 font-size:3rem;
