@@ -279,6 +279,7 @@ text-align: center;
   color:black;
   background-color:white;
   text-align:center;
+  font-size: 2em;
 }
 
 .home-arrow-right{
@@ -286,9 +287,10 @@ text-align: center;
   text-decoration:none;
   color:black;
   position:absolute;
-  top:50%;
-  right:20%;
+  top:55%;
+  right:30%;
   transform:translate(0%, -50%);
+  font-size: 2em;
 }
 
 .home-arrow-left{
@@ -296,9 +298,10 @@ text-align: center;
   text-decoration:none;
   color:black;
   position:absolute;
-  top:50%;
-  left:20%;
+  top:55%;
+  left:30%;
   transform:translate(0%, -50%);
+  font-size: 2em;
 }
 
 .slider-display{
