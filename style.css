@@ -292,3 +292,30 @@ justify-content: center;
     display:none;
   }
 }
+
+#inconshome{
+  display: grid;
+}
+
+.combination1{
+  grid-area: a;
+}
+.combination2{
+  grid-area: b;
+}
+.combination3{
+  grid-area: c;
+}
+
+@media (min-width:1000px){
+			#iconshome{
+				display: grid;
+				grid-template-columns: 1fr 1fr 1fr;
+				grid-gap: 50px;
+				grid-template-areas:
+					"a b c";}
+
+    .button{
+      width: 75%;
+    }
+				}
