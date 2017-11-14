@@ -18,7 +18,7 @@ h1{
 font-family:"Archivo Narrow", Arial, sans-serif;
 text-align: center;
 font-size:2rem;
-background-color: #D3D3D3;
+
 padding-top:5px;
 }
 
@@ -65,7 +65,7 @@ h6 a:link{
 }
 
 h6 a:visited{
-  color: black;
+  color: #000000;
   text-decoration:none;
 }
 
@@ -83,12 +83,6 @@ p{
   font-family:"Open Sans", Arial, sans-serif;
 }
 
-#containerenter{
-margin:auto;
-background-color: white;
-width: 95%;
-text-align: center;
-}
 
 input{
   border:1px solid black;
@@ -161,6 +155,7 @@ padding: 15px;
 
 #nav {
 width:20%;
+display:none;
 }
 
 #nav li{
@@ -181,7 +176,7 @@ width:20%;
 }
 
 #nav a:visited {
-  color:#ffffff;
+  color:#000000;
 }
 
 #nav a:hover, #nav a:active{
@@ -195,8 +190,26 @@ text-align:center;
 list-style-type: none;
 }
 
+header{
+  display:flex;
+  flex-flow:row-reverse nowrap;
+  align-items: center;
+  justify-content: center;
+  background-color: #D3D3D3;
+}
+
+#everything{
+  text-align: center;
+}
+
 #categoriescenter{
+display: flex;
+flex-flow: column;
 margin:auto;
+text-align: center;
+margin:auto;
+background-color: white;
+width: 95%;
 text-align: center;
 }
 
@@ -221,28 +234,26 @@ text-align: center;
   text-align:center;
 }
 
-.right{
-  position:absolute;
-  top:50%;
-  right:0%;
-  transform:translate(0%,-50%);
-}
-
-.left{
-  position:absolute;
-  top:50%;
-  left:0%;
-  transform:translate(0%,-50%);
-}
 
 .slider-display{
   max-width:980px;
   margin:0 auto;
 }
 
+.menu-trigger{
+  color:#000000;
+  text-decoration: none;
+  padding: 20px;
+}
+
 @media (min-width:600px){
 
-  nav ul{
+header{
+  flex-flow:column;
+}
+
+  #nav{
+    display:flex;
     flex-flow:row;
     justify-content: space-between;
   }
@@ -250,53 +261,23 @@ text-align: center;
   nav ul li{
     border-bottom:none;
   }
-
-  .right{
-    position:absolute;
-    top:50%;
-    right:6%;
-    transform:translate(0%,-50%);
+  .menu-trigger {
+    display:none;
   }
-
-  .left{
-    position:absolute;
-    top:50%;
-    left:6%;
-    transform:translate(0%,-50%);
+  #categoriescenter{
+    display:flex;
+    flex-flow:row;
   }
-
 }
 
 @media (min-width:1000px){
-  .right{
-    position:absolute;
-    top:40%;
-    right:8%;
-    transform:translate(0%,-50%);
-  }
-
-  .left{
-    position:absolute;
-    top:40%;
-    left:8%;
-    transform:translate(0%,-50%);
+  .menu-trigger {
+    display:none;
   }
 }
 
 @media (min-width:1200px){
-
-  .right{
-    position:absolute;
-    top:40%;
-    right:10%;
-    transform:translate(0%,-50%);
+  .menu-trigger {
+    display:none;
   }
-
-  .left{
-    position:absolute;
-    top:40%;
-    left:10%;
-    transform:translate(0%,-50%);
-  }
-
 }

@@ -9,23 +9,28 @@
 <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600,700" rel="stylesheet"/>
 <link rel="stylesheet" type="text/css" href="style.css"/>
 <script src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
-  <script src="javascript.js" type="text/javascript"></script>
+  <script src="hamburger.js" type="text/javascript" charset="utf-8"></script>
 
   <title>SSND Categories</title>
 </head>
 
 <body>
+<header>
   <h1>SSND Contest
   <img class="logo" src="logo.png"/></h1>
 
+<nav>
+    <a class="menu-trigger" href="#">&#9776;</a>
 <ul id="nav">
+
   <li><a href="homepage.html">Home</a></li>
   <li><a href="about.html">About</a></li>
   <li><a href="categories.html">Categories</a></li>
   <li><a href="contact.html"> Contact</a></li>
   <li><a href="enter.html">Enter</a></li>
 </ul>
-
+</nav>
+</header>
 <div id="categoriescenter">
   <h2>Categories</h2>
   <p><a href="#frontpage">Front Page Design</a></p>
@@ -44,9 +49,11 @@
   <p><a href="#bestdesignedstudentsite">World's Best Designed Student News Site</a></p>
   <p><a href="#bestdesignedstudentnewspaper">World's Best Designed Student Newspaper</a></p>
   <p><a href="#studentdesigneryear">Student Designer of the Year</a></p>
+</div>
 
 <br></br>
 
+<div id="everything">
 <div id="about">
  <h3 id="frontpage">Front Page Design</h3>
    </div>
@@ -54,12 +61,11 @@
     <div class="examples">
       <div class="slider-display">
       <div class="sliderphoto"><img src="2017 Winners/2017frontpagedesign.jpg" alt="2017 Alternative Story Winner" /><p class="caption">The colorful sunset is mirrored in a puddle near Stobersreuth, Germany.</p></div>
-      <div class="sliderphoto"><div class="sliderphoto"><img src="2016 Winners/2016frontpage.jpg" alt="2017 Alternative Story Winner" /><p class="caption">The colorful sunset is mirrored in a puddle near Stobersreuth, Germany.</p></div>
-      <div class="sliderphoto"><div class="sliderphoto"><img src="2015 Winners/2015frontpage.jpg" alt="2017 Alternative Story Winner" /><p class="caption">The colorful sunset is mirrored in a puddle near Stobersreuth, Germany.</p></div>
+      <div class="sliderphoto"><img src="2016 Winners/2016frontpage.jpg" alt="2017 Alternative Story Winner" /><p class="caption">The colorful sunset is mirrored in a puddle near Stobersreuth, Germany.</p></div>
+      <div class="sliderphoto"><img src="2015 Winners/2015frontpage.jpg" alt="2017 Alternative Story Winner" /><p class="caption">The colorful sunset is mirrored in a puddle near Stobersreuth, Germany.</p></div>
 
 <button class="arrow left" onclick="plusDivs(-1)">&#10094;</button>
 <button class="arrow right" onclick="plusDivs(+1)">&#10095;</button>
-</div>
 </div>
         <br></br>
 
@@ -68,9 +74,13 @@
    </div>
     <p>Upload a PDF. One page constitutes an entry. No advertising should appear on these pages.</p>
     <div class="examples">
-      <img src="2017 Winners/2017sportspage.jpg" alt="2017 Alternative Story Winner" />
-      <img src="2016 Winners/2016sportsdesign.jpg" alt="2017 Alternative Story Winner" />
-      <img src="2015 Winners/2015sportspage.jpg" alt="2017 Alternative Story Winner" />
+      <div class="slider-display">
+      <div class="sliderphoto"><img src="2017 Winners/2017sportspage.jpg" alt="2017 Alternative Story Winner" /><p class="caption">The colorful sunset is mirrored in a puddle near Stobersreuth, Germany.</p></div>
+      <div class="sliderphoto"><img src="2016 Winners/2016sportsdesign.jpg" alt="2017 Alternative Story Winner" /><p class="caption">The colorful sunset is mirrored in a puddle near Stobersreuth, Germany.</p></div>
+      <div class="sliderphoto"><img src="2015 Winners/2015sportspage.jpg" alt="2017 Alternative Story Winner" /><p class="caption">The colorful sunset is mirrored in a puddle near Stobersreuth, Germany.</p></div>
+  </div>
+  <button class="arrow left" onclick="plusDivs(-1)">&#10094;</button>
+  <button class="arrow right" onclick="plusDivs(+1)">&#10095;</button>
   </div>
           <br></br>
 
@@ -79,9 +89,13 @@
   </div>
       <p>Upload a PDF. One page constitutes an entry. No advertising should appear on these pages.</p>
       <div class="examples">
-        <img src="2017 Winners/2017featurepagedesign.jpg" alt="2017 Alternative Story Winner" />
-        <img src="2016 Winners/2016feature.jpg" alt="2017 Alternative Story Winner" />
-        <img src="2015 Winners/2015featurepage.jpg" alt="2017 Alternative Story Winner" />
+        <div class="slider-display">
+        <div class="sliderphoto"><img src="2017 Winners/2017featurepagedesign.jpg" alt="2017 Alternative Story Winner" /><p class="caption">The colorful sunset is mirrored in a puddle near Stobersreuth, Germany.</p></div>
+        <div class="sliderphoto"><img src="2016 Winners/2016feature.jpg" alt="2017 Alternative Story Winner" /><p class="caption">The colorful sunset is mirrored in a puddle near Stobersreuth, Germany.</p></div>
+        <div class="sliderphoto"><img src="2015 Winners/2015featurepage.jpg" alt="2017 Alternative Story Winner" /><p class="caption">The colorful sunset is mirrored in a puddle near Stobersreuth, Germany.</p></div>
+      </div>
+      <button class="arrow left" onclick="plusDivs(-1)">&#10094;</button>
+      <button class="arrow right" onclick="plusDivs(+1)">&#10095;</button>
       </div>
           <br></br>
 
@@ -90,9 +104,13 @@
  </div>
   <p>Should be a multi-page, stand alone section with a single theme. Submit one PDF containing the complete section. May be a group project.</p>
   <div class="examples">
-  <img src="2017 Winners/2017featurepagedesign.jpg" alt="2017 Alternative Story Winner" />
-  <img src="2016 Winners/2016feature.jpg" alt="2017 Alternative Story Winner" />
-  <img src="2017 Winners/2017frontpagedesign.jpg" alt="2017 Alternative Story Winner" />
+    <div class="slider-display">
+  <div class="sliderphoto"><img src="2017 Winners/2017featurepagedesign.jpg" alt="2017 Alternative Story Winner" /><p class="caption">The colorful sunset is mirrored in a puddle near Stobersreuth, Germany.</p></div>
+  <div class="sliderphoto"><img src="2016 Winners/2016feature.jpg" alt="2017 Alternative Story Winner" /><p class="caption">The colorful sunset is mirrored in a puddle near Stobersreuth, Germany.</p></div>
+  <div class="sliderphoto"><img src="2017 Winners/2017frontpagedesign.jpg" alt="2017 Alternative Story Winner" /><p class="caption">The colorful sunset is mirrored in a puddle near Stobersreuth, Germany.</p></div>
+  </div>
+  <button class="arrow left" onclick="plusDivs(-1)">&#10094;</button>
+  <button class="arrow right" onclick="plusDivs(+1)">&#10095;</button>
   </div>
      <br></br>
 
@@ -101,9 +119,13 @@
  </div>
   <p>Upload a PDF. One page constitutes an entry. No advertising should appear on these pages.</p>
   <div class="examples">
-  <img src="2017 Winners/2017featurepagedesign.jpg" alt="2017 Alternative Story Winner" />
-  <img src="2016 Winners/2016feature.jpg" alt="2017 Alternative Story Winner" />
-  <img src="2017 Winners/2017frontpagedesign.jpg" alt="2017 Alternative Story Winner" />
+    <div class="slider-display">
+  <div class="sliderphoto"><img src="2017 Winners/2017featurepagedesign.jpg" alt="2017 Alternative Story Winner" /><p class="caption">The colorful sunset is mirrored in a puddle near Stobersreuth, Germany.</p></div>
+  <div class="sliderphoto"><img src="2016 Winners/2016feature.jpg" alt="2017 Alternative Story Winner" /><p class="caption">The colorful sunset is mirrored in a puddle near Stobersreuth, Germany.</p></div>
+  <div class="sliderphoto"><img src="2017 Winners/2017frontpagedesign.jpg" alt="2017 Alternative Story Winner" /><p class="caption">The colorful sunset is mirrored in a puddle near Stobersreuth, Germany.</p></div>
+  </div>
+  <button class="arrow left" onclick="plusDivs(-1)">&#10094;</button>
+  <button class="arrow right" onclick="plusDivs(+1)">&#10095;</button>
   </div>
      <br></br>
 
@@ -112,9 +134,13 @@
  </div>
   <p>Upload a PDF. One spread (single- or multi-page) constitutes an entry. No advertising should appear on these pages.</p>
   <div class="examples">
-  <img src="2017 Winners/2017featurepagedesign.jpg" alt="2017 Alternative Story Winner" />
-  <img src="2016 Winners/2016feature.jpg" alt="2017 Alternative Story Winner" />
-  <img src="2017 Winners/2017frontpagedesign.jpg" alt="2017 Alternative Story Winner" />
+    <div class="slider-display">
+  <div class="sliderphoto"><img src="2017 Winners/2017featurepagedesign.jpg" alt="2017 Alternative Story Winner" /><p class="caption">The colorful sunset is mirrored in a puddle near Stobersreuth, Germany.</p></div>
+  <div class="sliderphoto"><img src="2016 Winners/2016feature.jpg" alt="2017 Alternative Story Winner" /><p class="caption">The colorful sunset is mirrored in a puddle near Stobersreuth, Germany.</p></div>
+  <div class="sliderphoto"><img src="2017 Winners/2017frontpagedesign.jpg" alt="2017 Alternative Story Winner" /><p class="caption">The colorful sunset is mirrored in a puddle near Stobersreuth, Germany.</p></div>
+  </div>
+  <button class="arrow left" onclick="plusDivs(-1)">&#10094;</button>
+  <button class="arrow right" onclick="plusDivs(+1)">&#10095;</button>
   </div>
      <br></br>
 
@@ -123,9 +149,13 @@
  </div>
   <p>Upload a PDF. In comment field indicate, if necessary, the graphic to be judged. One sample constitutes an entry.</p>
   <div class="examples">
-  <img src="2017 Winners/2017featurepagedesign.jpg" alt="2017 Alternative Story Winner" />
-  <img src="2016 Winners/2016feature.jpg" alt="2017 Alternative Story Winner" />
-  <img src="2017 Winners/2017frontpagedesign.jpg" alt="2017 Alternative Story Winner" />
+    <div class="slider-display">
+  <div class="sliderphoto"><img src="2017 Winners/2017featurepagedesign.jpg" alt="2017 Alternative Story Winner" /><p class="caption">The colorful sunset is mirrored in a puddle near Stobersreuth, Germany.</p></div>
+  <div class="sliderphoto"><img src="2016 Winners/2016feature.jpg" alt="2017 Alternative Story Winner" /><p class="caption">The colorful sunset is mirrored in a puddle near Stobersreuth, Germany.</p></div>
+  <div class="sliderphoto"><img src="2017 Winners/2017frontpagedesign.jpg" alt="2017 Alternative Story Winner" /><p class="caption">The colorful sunset is mirrored in a puddle near Stobersreuth, Germany.</p></div>
+  </div>
+  <button class="arrow left" onclick="plusDivs(-1)">&#10094;</button>
+  <button class="arrow right" onclick="plusDivs(+1)">&#10095;</button>
   </div>
      <br></br>
 
@@ -134,9 +164,13 @@
  </div>
   <p>Upload a PDF. In comment field indicate, if necessary, the illustration to be included in contest. One sample constitutes an entry.</p>
   <div class="examples">
-  <img src="2017 Winners/2017featurepagedesign.jpg" alt="2017 Alternative Story Winner" />
-  <img src="2016 Winners/2016feature.jpg" alt="2017 Alternative Story Winner" />
-  <img src="2017 Winners/2017frontpagedesign.jpg" alt="2017 Alternative Story Winner" />
+    <div class="slider-display">
+  <div class="sliderphoto"><img src="2017 Winners/2017featurepagedesign.jpg" alt="2017 Alternative Story Winner" /><p class="caption">The colorful sunset is mirrored in a puddle near Stobersreuth, Germany.</p></div>
+  <div class="sliderphoto"><img src="2016 Winners/2016feature.jpg" alt="2017 Alternative Story Winner" /><p class="caption">The colorful sunset is mirrored in a puddle near Stobersreuth, Germany.</p></div>
+  <div class="sliderphoto"><img src="2017 Winners/2017frontpagedesign.jpg" alt="2017 Alternative Story Winner" /><p class="caption">The colorful sunset is mirrored in a puddle near Stobersreuth, Germany.</p></div>
+  </div>
+  <button class="arrow left" onclick="plusDivs(-1)">&#10094;</button>
+  <button class="arrow right" onclick="plusDivs(+1)">&#10095;</button>
   </div>
      <br></br>
 
@@ -145,9 +179,13 @@
  </div>
   <p>Upload a PDF. One spread (single- or multi-page) constitutes an entry. No advertising should appear on these pages.</p>
   <div class="examples">
-  <img src="2017 Winners/2017featurepagedesign.jpg" alt="2017 Alternative Story Winner" />
-  <img src="2016 Winners/2016feature.jpg" alt="2017 Alternative Story Winner" />
-  <img src="2017 Winners/2017frontpagedesign.jpg" alt="2017 Alternative Story Winner" />
+    <div class="slider-display">
+  <div class="sliderphoto"><img src="2017 Winners/2017featurepagedesign.jpg" alt="2017 Alternative Story Winner" /><p class="caption">The colorful sunset is mirrored in a puddle near Stobersreuth, Germany.</p></div>
+  <div class="sliderphoto"><img src="2016 Winners/2016feature.jpg" alt="2017 Alternative Story Winner" /><p class="caption">The colorful sunset is mirrored in a puddle near Stobersreuth, Germany.</p></div>
+  <div class="sliderphoto"><img src="2017 Winners/2017frontpagedesign.jpg" alt="2017 Alternative Story Winner" /><p class="caption">The colorful sunset is mirrored in a puddle near Stobersreuth, Germany.</p></div>
+  </div>
+  <button class="arrow left" onclick="plusDivs(-1)">&#10094;</button>
+  <button class="arrow right" onclick="plusDivs(+1)">&#10095;</button>
   </div>
      <br></br>
 
@@ -156,9 +194,13 @@
  </div>
   <p>Upload a PDF. In comment field indicate, if necessary, the graphic to be judged. Interactive or animated graphics are welcome: submit a hyperlink. One sample constitutes an entry.</p>
   <div class="examples">
-  <img src="2017 Winners/2017featurepagedesign.jpg" alt="2017 Alternative Story Winner" />
-  <img src="2016 Winners/2016feature.jpg" alt="2017 Alternative Story Winner" />
-  <img src="2017 Winners/2017frontpagedesign.jpg" alt="2017 Alternative Story Winner" />
+    <div class="slider-display">
+  <div class="sliderphoto"><img src="2017 Winners/2017featurepagedesign.jpg" alt="2017 Alternative Story Winner" /><p class="caption">The colorful sunset is mirrored in a puddle near Stobersreuth, Germany.</p></div>
+  <div class="sliderphoto"><img src="2016 Winners/2016feature.jpg" alt="2017 Alternative Story Winner" /><p class="caption">The colorful sunset is mirrored in a puddle near Stobersreuth, Germany.</p></div>
+  <div class="sliderphoto"><img src="2017 Winners/2017frontpagedesign.jpg" alt="2017 Alternative Story Winner" /><p class="caption">The colorful sunset is mirrored in a puddle near Stobersreuth, Germany.</p></div>
+  </div>
+  <button class="arrow left" onclick="plusDivs(-1)">&#10094;</button>
+  <button class="arrow right" onclick="plusDivs(+1)">&#10095;</button>
   </div>
      <br></br>
 
@@ -167,9 +209,13 @@
  </div>
   <p>Upload a PDF of the actual product. Includes fliers, brochures and posters. A campaign of up to three advertisements may be considered for one entry.</p>
   <div class="examples">
-  <img src="2017 Winners/2017featurepagedesign.jpg" alt="2017 Alternative Story Winner" />
-  <img src="2016 Winners/2016feature.jpg" alt="2017 Alternative Story Winner" />
-  <img src="2017 Winners/2017frontpagedesign.jpg" alt="2017 Alternative Story Winner" />
+    <div class="slider-display">
+  <div class="sliderphoto"><img src="2017 Winners/2017featurepagedesign.jpg" alt="2017 Alternative Story Winner" /><p class="caption">The colorful sunset is mirrored in a puddle near Stobersreuth, Germany.</p></div>
+  <div class="sliderphoto"><img src="2016 Winners/2016feature.jpg" alt="2017 Alternative Story Winner" /><p class="caption">The colorful sunset is mirrored in a puddle near Stobersreuth, Germany.</p></div>
+  <div class="sliderphoto"><img src="2017 Winners/2017frontpagedesign.jpg" alt="2017 Alternative Story Winner" /><p class="caption">The colorful sunset is mirrored in a puddle near Stobersreuth, Germany.</p></div>
+  </div>
+  <button class="arrow left" onclick="plusDivs(-1)">&#10094;</button>
+  <button class="arrow right" onclick="plusDivs(+1)">&#10095;</button>
   </div>
      <br></br>
 
@@ -178,9 +224,13 @@
  </div>
        <p>Upload a file below or submit a hyperlink for one entry. Multimedia can include, and is not limited to, any combination of animation, text, images, interactivity or video.</p>
        <div class="examples">
-       <img src="2017 Winners/2017featurepagedesign.jpg" alt="2017 Alternative Story Winner" />
-       <img src="2016 Winners/2016feature.jpg" alt="2017 Alternative Story Winner" />
-       <img src="2017 Winners/2017frontpagedesign.jpg" alt="2017 Alternative Story Winner" />
+         <div class="slider-display">
+       <div class="sliderphoto"><img src="2017 Winners/2017featurepagedesign.jpg" alt="2017 Alternative Story Winner" /><p class="caption">The colorful sunset is mirrored in a puddle near Stobersreuth, Germany.</p></div>
+       <div class="sliderphoto"><img src="2016 Winners/2016feature.jpg" alt="2017 Alternative Story Winner" /><p class="caption">The colorful sunset is mirrored in a puddle near Stobersreuth, Germany.</p></div>
+       <div class="sliderphoto"><img src="2017 Winners/2017frontpagedesign.jpg" alt="2017 Alternative Story Winner" /><p class="caption">The colorful sunset is mirrored in a puddle near Stobersreuth, Germany.</p></div>
+  </div>
+  <button class="arrow left" onclick="plusDivs(-1)">&#10094;</button>
+  <button class="arrow right" onclick="plusDivs(+1)">&#10095;</button>
   </div>
           <br></br>
 
@@ -189,9 +239,13 @@
  </div>
       <p>Upload a PDF. One spread (single- or multi-page) constitutes an entry. No advertising should appear on these pages.</p>
       <div class="examples">
-      <img src="2017 Winners/2017featurepagedesign.jpg" alt="2017 Alternative Story Winner" />
-      <img src="2016 Winners/2016feature.jpg" alt="2017 Alternative Story Winner" />
-      <img src="2017 Winners/2017frontpagedesign.jpg" alt="2017 Alternative Story Winner" />
+        <div class="slider-display">
+      <div class="sliderphoto"><img src="2017 Winners/2017featurepagedesign.jpg" alt="2017 Alternative Story Winner" /><p class="caption">The colorful sunset is mirrored in a puddle near Stobersreuth, Germany.</p></div>
+      <div class="sliderphoto"><img src="2016 Winners/2016feature.jpg" alt="2017 Alternative Story Winner" /><p class="caption">The colorful sunset is mirrored in a puddle near Stobersreuth, Germany.</p></div>
+      <div class="sliderphoto"><img src="2017 Winners/2017frontpagedesign.jpg" alt="2017 Alternative Story Winner" /><p class="caption">The colorful sunset is mirrored in a puddle near Stobersreuth, Germany.</p></div>
+  </div>
+  <button class="arrow left" onclick="plusDivs(-1)">&#10094;</button>
+  <button class="arrow right" onclick="plusDivs(+1)">&#10095;</button>
   </div>
         <br></br>
 
@@ -217,7 +271,8 @@
 
     <p></p>
 </div>
-
+</div>
+  <script src="javascript.js" type="text/javascript" charset="utf-8"></script>
 </body>
 
 <p id="footer">University of Missouri<br></br>
