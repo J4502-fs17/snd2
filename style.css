@@ -74,6 +74,8 @@ font-family:"Archivo Narrow", Arial, sans-serif;
 font-size:3rem;
 margin:auto;
 text-align: center;
+margin:5px;
+padding: 10px;
 }
 h3{
 font-family:"Archivo Narrow", Arial, sans-serif;
@@ -202,15 +204,18 @@ header{
   text-align: center;
 }
 
-#categoriescenter{
+#categoriescenter {
 display: flex;
 flex-flow: column;
-margin:auto;
 text-align: center;
-margin:auto;
 background-color: white;
 width: 95%;
 text-align: center;
+}
+
+#categoriescenter p{
+  margin:2px;
+  padding:1px;
 }
 
 #footer {
@@ -264,9 +269,15 @@ header{
   .menu-trigger {
     display:none;
   }
-  #categoriescenter{
+  #categoriescenter {
     display:flex;
-    flex-flow:row;
+    flex-flow:row wrap;
+justify-content: center;
+  }
+
+  #categoriescenter p{
+    margin:1px;
+
   }
 }
 
