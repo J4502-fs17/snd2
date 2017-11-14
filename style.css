@@ -244,14 +244,20 @@ text-align: center;
   text-align:center;
 }
 
-.right{
+.home-arrow-right{
+  outline:0;
+  text-decoration:none;
+  color:black;
   position:absolute;
   top:50%;
   right:0%;
   transform:translate(0%, -50%);
 }
 
-.left{
+.home-arrow-left{
+  outline:0;
+  text-decoration:none;
+  color:black;
   position:absolute;
   top:50%;
   left:0%;
