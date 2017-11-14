@@ -349,3 +349,17 @@ justify-content: center;
     }
 
 				}
+
+        @media (max-width:800px){
+        			#iconshome{
+        				display: grid;
+        				grid-template-columns: 1fr 1fr 1fr;
+        				grid-template-areas:
+        					"a a a"
+                  "b b b"
+                  "c c c";}
+
+            .button{
+              width: 25%;
+
+            }
