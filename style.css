@@ -22,17 +22,6 @@ font-size:2rem;
 padding-top:5px;
 }
 
-.sliderimage {
-  width:100%;
-}
-
-.button{
-  display:block;
-  position: relative;
-  width:50%;
-  margin: auto;
-}
-
 .combination1{
     position:relative;
     width: 100%;
@@ -114,6 +103,7 @@ margin:auto;
 .logo{
   width:10%
 }
+
 .enter{
  width:10%;
  margin-right: 3px;
@@ -239,6 +229,32 @@ text-align: center;
   text-align:center;
 }
 
+.home-arrow{
+  border:none;
+  display:inline-block;
+  outline:0;
+  padding: 8px 16px;
+  vertical-align:middle;
+  overflow:hidden;
+  text-decoration:none;
+  color:black;
+  background-color:white;
+  text-align:center;
+}
+
+.right{
+  position:absolute;
+  top:50%;
+  right:0%;
+  transform:translate(0%, -50%);
+}
+
+.left{
+  position:absolute;
+  top:50%;
+  left:0%;
+  transform:translate(0%, -50%);
+}
 
 .slider-display{
   max-width:980px;
