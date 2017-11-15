@@ -13,13 +13,12 @@ body{
   display: flex;
   flex-direction: column;
   justify-content: center;
-
 }
 
-#container-contact{
+.containercontact{
   display: flex;
-  flex-direction: column;
-  justify-content: center;
+  flex-direction:column;
+  align-items: center;
 }
 
 #iconshome{
