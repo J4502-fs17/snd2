@@ -189,6 +189,7 @@ margin:auto;
 #abouttext{
 margin:auto;
 text-align: center;
+font-size: 1.2em;
 }
 
 
@@ -400,6 +401,11 @@ justify-content: center;
   width:6%;
   margin-right: 5px;
   }
+  #abouttext{
+  margin:auto;
+  text-align: center;
+  font-size: 2em;
+  }
 }
 
 @media (min-width:1000px){
@@ -441,6 +447,13 @@ justify-content: center;
   .home-arrow-left{
     margin-top:10%;
   }
+
+  #abouttext{
+  margin:auto;
+  text-align: center;
+  font-size: 2em;
+  }
+
 }
 
 @media (min-width:1200px){
