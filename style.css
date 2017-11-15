@@ -26,16 +26,19 @@ body{
   width:80%;
 }
 
-p{
-margin-top: 10px;
-font-family:"Archivo Narrow", Arial, sans-serif;
-text-decoration: underline;
-}
+
 h1{
 font-family:"Archivo Narrow", Arial, sans-serif;
 text-align: center;
 font-size:2rem;
 padding-top:5px;
+}
+
+.subhead{
+margin-top: 10px;
+font-family:"Archivo Narrow", Arial, sans-serif;
+text-decoration: underline;
+font-size:.5em;
 }
 
 #homeslide{
@@ -332,6 +335,13 @@ header{
   flex-flow:column;
 }
 
+.subhead{
+margin-top: 10px;
+font-family:"Archivo Narrow", Arial, sans-serif;
+text-decoration: underline;
+font-size:1em;
+}
+
   #nav{
     display:flex;
     flex-flow:row;
@@ -405,6 +415,13 @@ justify-content: center;
   .judge{
   max-width:60px;
   margin-right: 5px;
+  }
+
+  .subhead{
+  margin-top: 10px;
+  font-family:"Archivo Narrow", Arial, sans-serif;
+  text-decoration: underline;
+  font-size:1.5em;
   }
 }
 
