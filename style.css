@@ -21,6 +21,11 @@ body{
   width:80%;
 }
 
+p{
+margin-top: 10px;
+font-family:"Archivo Narrow", Arial, sans-serif;
+text-decoration: underline;
+}
 h1{
 font-family:"Archivo Narrow", Arial, sans-serif;
 text-align: center;
@@ -452,11 +457,11 @@ justify-content: center;
     }
 				}
 
-        @media (max-width:800px){
-        			#iconshome{
-        				display: grid;
-        				grid-template-columns: 1fr 1fr 1fr;
-        				grid-template-areas:
+  @media (max-width:800px){
+  #iconshome{
+display: grid;
+grid-template-columns: 1fr 1fr 1fr;
+grid-template-areas:
         					"a a a"
                   "b b b"
                   "c c c";}
