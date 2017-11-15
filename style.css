@@ -423,11 +423,27 @@ justify-content: center;
   text-decoration: underline;
   font-size:1.5em;
   }
+
+  .home-arrow-right{
+    margin-top:10%;
+  }
+
+  .home-arrow-left{
+    margin-top:10%;
+  }
 }
 
 @media (min-width:1200px){
   .menu-trigger {
     display:none;
+  }
+
+  .home-arrow-right{
+    margin-top:10%;
+  }
+
+  .home-arrow-left{
+    margin-top:10%;
   }
 }
 
