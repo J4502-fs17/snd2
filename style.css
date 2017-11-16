@@ -18,9 +18,13 @@ body{
 
 #iconshome{
   margin:0 auto;
-  width:80%;
+  width:60%;
 }
-
+.subhead{
+margin: 0;
+padding-left: 0;
+font-size: 15px;
+}
 h1{
 font-family:"Archivo Narrow", Arial, sans-serif;
 text-align: center;
@@ -33,7 +37,9 @@ padding-top:5px;
   text-align: center;
   margin:auto;
 }
-
+.logofooter{
+width: 100px;
+}
 .combination1{
     position:relative;
     width: 100%;
@@ -178,25 +184,25 @@ display:none;
 }
 
 #nav li{
-  list-style-type: none;
-  margin:5px;
-  padding:5px 25px 5px 5px;
-  border-bottom: 1px solid #A9A9A9;
-  text-decoration: none;
-  background-color: #D3D3D3;
-  font-size: 2em;
+list-style-type: none;
+margin:5px;
+padding:5px 25px 5px 5px;
+border-bottom: 1px solid #A9A9A9;
+text-decoration: none;
+background-color: #D3D3D3;
+font-size: 2em;
 }
 
 #nav a:link {
-  font-weight:bold;
-  color:black;
-  text-decoration:none;
-  font-family:"Archivo Narrow", Arial, sans-serif;
+font-weight:bold;
+color:black;
+text-decoration:none;
+font-family:"Archivo Narrow", Arial, sans-serif;
 
 }
 
 #nav a:visited {
-  color:#000000;
+color:#000000;
 }
 
 #nav a:hover, #nav a:active{
@@ -219,7 +225,7 @@ header{
 }
 
 #everything{
-  text-align: center;
+text-align: center;
 }
 
 #categoriescenter {
@@ -239,7 +245,7 @@ text-align: center;
 #footer {
     color: black;
     font-family:"Open Sans", Arial, sans-serif;
-    text-align: center;
+    text-align:left;
     padding-top:5px;
     font-size: 0.8em;
     border-top: 1px solid black;
@@ -318,7 +324,7 @@ header{
   nav ul li{
     border-bottom:none;
   }
-  .menu-trigger {
+.menu-trigger {
     display:none;
   }
   #categoriescenter {
@@ -387,7 +393,9 @@ justify-content: center;
         					"a a a"
                   "b b b"
                   "c c c";}
-
+.subhead{
+display: none;
+}
             .button{
               width: 25%;
             }
