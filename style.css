@@ -21,6 +21,10 @@ body{
   margin:0 auto;
   width:60%;
 }
+
+.containercontact{
+text-align: center;
+}
 .subhead{
 margin: 0;
 padding-left: 0;
