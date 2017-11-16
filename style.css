@@ -16,6 +16,7 @@ body{
 
 }
 
+
 #iconshome{
   margin:0 auto;
   width:60%;
@@ -23,7 +24,7 @@ body{
 .subhead{
 margin: 0;
 padding-left: 0;
-font-size: 15px;
+font-size: 10px;
 }
 h1{
 font-family:"Archivo Narrow", Arial, sans-serif;
@@ -75,7 +76,7 @@ h6{
   top: 60%;
   left: 53%;
   font-family:"Archivo Narrow", Arial, sans-serif;
-  font-size:1rem;
+  font-size:1.2rem;
   transform:translate(-50%, -50%);
 }
 
@@ -337,11 +338,25 @@ justify-content: center;
     margin:1px;
 
   }
+
+  .subhead{
+  margin: 0;
+  padding-left: 0;
+  font-size: 15px;
+  }
+
+  h6{
+    font-size: 2em;
+  }
 }
 
 @media (min-width:1000px){
   .menu-trigger {
     display:none;
+  }
+
+  h6{
+    font-size:1em;
   }
 }
 
@@ -382,7 +397,9 @@ justify-content: center;
       margin-bottom: 10px;
       width: 100%;
     }
-
+    h6{
+      font-size:1em;
+    }
 				}
 
         @media (max-width:800px){
@@ -393,9 +410,7 @@ justify-content: center;
         					"a a a"
                   "b b b"
                   "c c c";}
-.subhead{
-display: none;
-}
+
             .button{
               width: 25%;
             }
