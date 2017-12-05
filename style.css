@@ -10,6 +10,7 @@ body{
 }
 
 #containerenter{
+  background-color: #DCD0C0;
   display: flex;
   flex-direction: column;
   justify-content: center;
