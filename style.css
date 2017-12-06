@@ -10,7 +10,6 @@ body{
 }
 
 #containerenter{
-  background-color: #DCD0C0;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -44,7 +43,9 @@ font-size: 10px;
   text-align: center;
   margin:auto;
 }
-
+.logofooter{
+width: 100px;
+}
 .combination1{
     position:relative;
     width: 100%;
@@ -141,6 +142,32 @@ margin:auto;
   width:10%
 }
 
+<<<<<<< HEAD
+=======
+.enter{
+ width:10%;
+ margin-right: 3px;
+}
+.dollar{
+width:2%
+}
+.deadline{
+width:3%
+}
+.awards{
+width:6%;
+margin-right: 4px;
+}
+.judge{
+width:12%;
+margin-right: 5px;
+}
+.reminderlogo{
+width:7%;
+margin-left: 5px;
+}
+
+>>>>>>> origin/master
 
 #about{
 margin: 0;
@@ -229,7 +256,7 @@ text-align: center;
     font-family:"Open Sans", Arial, sans-serif;
     text-align:left;
     padding-top:5px;
-    font-size: 1em;
+    font-size: 0.8em;
     border-top: 1px solid black;
     background-color: #D3D3D3
 }
@@ -400,3 +427,62 @@ grid-template-areas:
 .button:hover{
 opacity: 0.5;
      }
+
+.section1{
+  width: 90%;
+  grid-area: a;
+}
+
+.logofooter{
+  grid-area: b;
+  width:5%;
+  justify-content: right;
+}
+
+#categoriescenter a:link, a:visited {
+text-decoration: none;
+color:#000000;
+font-size: 1.1rem;
+}
+
+#categoriescenter a:hover, a:active{
+  text-decoration: none;
+  color: grey;
+}
+
+
+.section1{
+    grid-area: a;
+    text-decoration: none;
+  }
+
+	.section2{
+		grid-area: b;
+	}
+
+	.section3{
+		grid-area: c;
+	}
+
+  @media screen and (min-width:600px){
+			#categoriescenter{
+				display: grid;
+				grid-template-columns: 1fr 1fr 1fr;
+				grid-gap: 5px;
+        justify-content: center;
+				grid-template-areas:
+					"a b c"
+					"a b c"
+					"a b c";}
+				}
+
+  @media screen and (max-width:600px){
+            #categoriescenter{
+              display: grid;
+              grid-template-columns:1fr 1fr 1fr;
+              justify-content: center;
+              grid-template-areas:
+                "a a a"
+                "b b b"
+                "c c c";}
+              }
