@@ -834,6 +834,15 @@ width: 60%;
 opacity: 0.5;
      }
 
+
+.backtotop a:link, a:visited{
+  text-decoration: underline;
+  font-size: 1.2rem;
+  color: black;
+  font-family: "Archivo Narrow", Arial, sans-serif;
+}
+
+
 #categoriescenter p{
   margin:3px;
   padding:3px;
