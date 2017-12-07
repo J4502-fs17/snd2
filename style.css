@@ -795,7 +795,7 @@ justify-content: center;
 }
 
 
-@media (min-width:1200px){
+@media (min-width:600px){
 .ssnd img{
 width: 60%;
 
