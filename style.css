@@ -562,10 +562,6 @@ margin: auto;
 margin-top: 5px;
 margin-bottom: 5px;
 }
-#iconshome{
-  margin:0 auto;
-  width:60%;
-}
 
 .containercontact{
 text-align: center;
@@ -804,19 +800,6 @@ width: 60%;
     display:none;
   }
 
-#inconshome{
-  display: grid;
-}
-
-.combination1{
-  grid-area: a;
-}
-.combination2{
-  grid-area: b;
-}
-.combination3{
-  grid-area: c;
-}
 .newbutton{
   text-align: center;
   flex-flow:row;
@@ -825,16 +808,7 @@ width: 60%;
 }
 
 @media (min-width:800px){
-#iconshome{
-display: grid;
-grid-template-columns: 1fr 1fr 1fr;
-grid-gap: 50px;
-grid-template-areas:
-"a b c";}
 
-    .button{
-      width: 75%;
-    }
     h1{
       font-size: 50px;
       margin: 0;
@@ -856,19 +830,6 @@ grid-template-areas:
       }
   }
 
-        @media (max-width:800px){
-        			#iconshome{
-        				display: grid;
-        				grid-template-columns: 1fr 1fr 1fr;
-        				grid-template-areas:
-        					"a a a"
-                  "b b b"
-                  "c c c";}
-
-            .button{
-              width: 25%;
-            }
-          }
 .button:hover{
 opacity: 0.5;
      }
