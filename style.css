@@ -844,6 +844,7 @@ opacity: 0.5;
 
 
 #categoriescenter p{
+  justify-content: center;
   margin:3px;
   padding:3px;
   background-color: #DCD0C0;
@@ -855,7 +856,7 @@ opacity: 0.5;
      font-size: 1.1rem;
      }
 
-     #categoriescenter a:hover, a:active{
+     #categoriescenter p:hover, #categoriescenter a:active{
        text-decoration: none;
        color: grey;
        background-color: white;
