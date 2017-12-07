@@ -972,13 +972,18 @@ grid-template-areas:
 opacity: 0.5;
      }
 
-
+#categoriescenter p{
+  margin:5px;
+  padding:5px;
+  background-color: #DCD0C0;
+}
 
      #categoriescenter a:link, a:visited {
      text-decoration: none;
      color:#000000;
      font-size: 1.1rem;
-     background-color: #D3D3D3;
+
+
      }
 
      #categoriescenter a:hover, a:active{
@@ -986,7 +991,6 @@ opacity: 0.5;
        color: grey;
        background-color: white;
      }
-
 
      .section1{
          grid-area: a;
