@@ -874,8 +874,8 @@ opacity: 0.5;
      }
 
 #categoriescenter p{
-  margin:5px;
-  padding:5px;
+  margin:3px;
+  padding:3px;
   background-color: #DCD0C0;
 }
 
@@ -883,8 +883,6 @@ opacity: 0.5;
      text-decoration: none;
      color:#000000;
      font-size: 1.1rem;
-
-
      }
 
      #categoriescenter a:hover, a:active{
@@ -892,6 +890,7 @@ opacity: 0.5;
        color: grey;
        background-color: white;
      }
+
 
      .section1{
          grid-area: a;
