@@ -220,7 +220,7 @@ a.ism-caption:hover {
 /* SLIDER */
 
 #my-slider {
-    width: 832px;
+    width: 350px;
     -webkit-border-radius: 5px; border-radius: 5px;
 }
 
@@ -701,6 +701,7 @@ header{
   align-items: center;
   justify-content: center;
   background-color: #D3D3D3;
+
 }
 
 #everything{
@@ -746,6 +747,7 @@ text-align: center;
 @media (min-width:600px){
 .ssnd img{
 margin-top: 5px;
+
   }
 header{
 flex-flow:column;
@@ -805,6 +807,10 @@ width: 60%;
   flex-flow:row;
   justify-content: center;
 }
+#my-slider {
+width: 800px;
+-webkit-border-radius: 5px; border-radius: 5px;
+}
 }
 
 @media (min-width:800px){
@@ -828,7 +834,7 @@ width: 60%;
     .button3{
       width:110%;
       }
-  }
+
 
 .button:hover{
 opacity: 0.5;
@@ -876,6 +882,9 @@ opacity: 0.5;
      		grid-area: c;
      	}
 
+
+    }
+
        @media screen and (min-width:600px){
      			#categoriescenter{
      				display: grid;
@@ -897,4 +906,19 @@ opacity: 0.5;
                      "a a a"
                      "b b b"
                      "c c c";}
+                     .ssnd img{
+                     margin-top: 5px;
+                     width: 70%;}
+
+                      }
+
+                       }
+
+
                    }
+                @media screen and (max-width:850px){
+                   #my-slider {
+                       width: 350px;
+                       -webkit-border-radius: 5px; border-radius: 5px;
+                   }
+                 }
