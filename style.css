@@ -16,6 +16,8 @@ body{
   justify-content: center;
 
 }
+
+
 .ism-slider{
 display: block;
 margin: auto;
@@ -791,6 +793,21 @@ text-align: center;
 margin-top: 5px;
 
   }
+  .button1:hover{
+
+
+  opacity: 0.8;
+  }
+  .button2:hover{
+
+
+  opacity: 0.8;
+  }
+  .button3:hover{
+
+
+  opacity: 0.8;
+  }
 header{
 flex-flow:column;
 }
@@ -953,6 +970,21 @@ font-size: 2em;
                      margin-top: 5px;
                      width: 70%;}
 
+                      }
+                      .button1:hover{
+
+
+                      opacity: 0.8;
+                      }
+                      .button2:hover{
+
+
+                      opacity: 0.8;
+                      }
+                      .button3:hover{
+
+
+                      opacity: 0.8;
                       }
 
                        }
