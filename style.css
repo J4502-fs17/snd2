@@ -888,6 +888,9 @@ opacity: 0.5;
   font-family: "Archivo Narrow", Arial, sans-serif;
 }
 
+#nav li{
+font-size: 2em;
+}
 
 #categoriescenter p{
   justify-content: center;
